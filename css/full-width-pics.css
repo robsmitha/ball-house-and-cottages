@@ -1,0 +1,301 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+
+/*
+Fonts:
+• Oswald (Tabs, Titles, etc)
+  o Tabs: Letter Spacing 100
+  o “Gallery” Section Titles: Letter Spacing 100
+  o Contact Info on the Footer: Letter Spacing 200
+  o “Find Us On” Footer: Letter Spacing 100
+• Great Vibes (Script font)
+• Montserrat – Regular (Copy)
+
+Colors:
+• Gold (see concept design: buttons, some script, tab highlights): ba9e30
+• Gray (lines, social media icons): 95989b
+• Light Gray (“Meet & Celebrate” boxes with copy): ebeef3
+• Black (see concept design: all copy, most text)
+ */
+.text-gold{
+  color: #ba9e30 !important;
+}
+.text-gray{
+  color: #95989b !important;
+}
+.text-light-gray{
+  color: #ebeef3 !important;
+}
+.bg-gold{
+  background-color: #ba9e30 !important;
+}
+.bg-gray{
+  background-color: #95989b !important;
+}
+.bg-light-gray{
+  background-color: #ebeef3 !important;
+}
+
+.border-gold{
+  border-color: #ba9e30 !important;
+}
+.border-gray{
+  border-color: #95989b !important;
+}
+.border-light-gray{
+  border-color: #ebeef3 !important;
+}
+
+body {
+  padding-top: 75px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 250px;
+  }
+}
+
+
+/*
+Navbar
+ */
+.navbar-nav .nav-link {
+  font-size: 25px;
+  padding-right: 1.7rem !important;
+  padding-left: 1.7rem !important;;
+}
+
+.nav-link-custom{
+
+}
+.navbar-light .navbar-nav .nav-link{
+  letter-spacing: .1em;
+  font-family: 'Oswald', sans-serif;
+  color: #000;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #ba9e30;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+  color: #ba9e30;
+}
+.navbar-image{
+  width: 175px;
+  height: 175px;
+}
+/*
+//END: Navbar
+ */
+
+/*
+Home Page Masthead
+ */
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+  /* Create the parallax scrolling effect
+  background-attachment: fixed; */
+
+
+  height: 55vh;
+}
+.masthead{
+  background: rgba(255,255,255,.6);
+  width: 20%;
+}
+.masthead-pre-top{
+  background: rgba(255,255,255,.6);
+  width: 4%;
+  height: 5vh;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.masthead-top{
+  background: rgba(255,255,255,.6);
+  width: 1%;
+  height: 2vh;
+}
+.masthead-pre-bottom{
+  background: rgba(255,255,255,.6);
+  width: 4%;
+  height: 5vh;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.masthead-bottom{
+  background: rgba(255,255,255,.6);
+  width: 1%;
+  height: 10vh;
+}
+@media (max-width: 992px) {
+  .masthead{
+    width: 100%;
+  }
+}
+.font-oswald{
+  font-family: 'Oswald', cursive;
+}
+.font-great-vibes{
+  font-family: 'Great Vibes', cursive;
+}
+.masthead-title{
+  font-family: 'Oswald', cursive;
+  letter-spacing: .2em;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.masthead-cursive{
+  font-family: 'Great Vibes', cursive;
+  font-weight: 700;
+  font-size: 50px;
+}
+.masthead-text{
+  font-family: 'Oswald', cursive;
+  letter-spacing: .1em;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.call-to-action-heading{
+  font-family: 'Great Vibes', cursive;
+  color: #ba9e30;
+  font-size: 50px;
+}
+.call-to-action-subheading{
+  font-family: 'Oswald', cursive;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.border-gold {
+  border-color: #ba9e30 !important;
+}
+/*
+//END: Call to action section
+ */
+
+/*
+home page images
+ */
+.home-img {
+
+}
+
+
+.section-title{
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+}
+.paragraph-text{
+  text-indent: 50px;
+  font-size: 18px;
+}
+
+.bg-image-half {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+  height: 30vh;
+}
+.celebrate-section{
+  padding-top: 25px;
+}
+.celebrate-text{
+  font-family: 'Great Vibes', cursive;
+  font-size: 90px;
+  text-shadow: 1px 1px 1px #000;
+}
+ul.celebrate-list {
+  margin: 0.75em 0;
+  padding: 0 1em;
+  list-style: none;
+}
+ul.celebrate-list > li:before {
+  content: "";
+  border-color: transparent #111;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
+}
+.contact-text{
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: .1em;
+}
+.contact-body{
+  font-size: 18px;
+}
+.contact-title{
+  font-family: 'Great Vibes', cursive;
+  font-size: 70px;
+}
+/*
+Footer
+ */
+.footer-text{
+  font-family: 'Oswald', cursive;
+  letter-spacing: .1em;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+/*gold button*/
+.btn-primary{
+  color: #ffffff !important;
+  border-radius: 0;
+}
+.swiper-pagination-bullet-active{
+  background: #ba9e30;
+}
+
+
+@media (max-width: 992px) {
+  .navbar-image{
+    width: 75px;
+    height: 75px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 20px;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;;
+  }
+  .celebrate-text{
+    font-size: 55px;
+  }
+  .bg-image-half{
+    height:20vh;
+  }
+    .bg-image-full {
+        height: 60vh;
+    }
+
+  .celebrate-section{
+    padding-top: 5px;
+  }
+
+  .contact-title{
+    font-size: 55px;
+  }
+  .footer-email{
+    font-size: 16px;
+  }
+}
